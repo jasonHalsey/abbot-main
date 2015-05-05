@@ -1,0 +1,1422 @@
+@font-face {
+    font-family: 'resamitzregular';
+    src: url('resamitz_0047-webfont.eot');
+    src: url('resamitz_0047-webfont.eot?#iefix') format('embedded-opentype'),
+         url('resamitz_0047-webfont.woff') format('woff'),
+         url('resamitz_0047-webfont.ttf') format('truetype'),
+         url('resamitz_0047-webfont.svg#resamitzregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'resamitzbold';
+    src: url('resamitzbold_0047-webfont.eot');
+    src: url('resamitzbold_0047-webfont.eot?#iefix') format('embedded-opentype'),
+         url('resamitzbold_0047-webfont.woff') format('woff'),
+         url('resamitzbold_0047-webfont.ttf') format('truetype'),
+         url('resamitzbold_0047-webfont.svg#resamitzbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/***** Body *****/
+body {
+  	font-family: 'resamitzregular' sans-serif;
+  	height:100%;
+    min-height:100%;
+  	background-color:#fff !important;
+}
+
+html{
+     height:100%;
+     min-height:100%;
+  	 background-color:#fff;
+     }
+
+a {
+	color: #fff;
+}
+
+a:hover {
+  	color: #fff;
+}
+
+ul {
+	color: #fff;
+}
+
+ul li {
+  	margin-bottom: 1.8%;
+}
+
+h1 b {
+	font-size: 2.5em;
+}
+
+h2 {
+  	font-size: 1.3em !important;
+}
+
+h3 {
+  	font-size: 1.3em !important;
+	color: #aaa;
+}
+
+textarea {
+	min-height: 200px;
+}
+
+.cfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/***** Toolbar *****/
+.toolbar-wrapper {
+  	height: 25px;
+}
+
+.toolbar {
+	width: 100%;
+  	font-size: .9em;
+}
+
+.toolbar li {
+	line-height: 25px;
+}
+
+.login {
+	float: left;
+}
+
+.register {
+	float: left;
+  	padding-left: 25px;
+}
+
+#customer_login_link {
+	color: #FFF;
+}
+
+#customer_register_link {
+	color: #FFF;
+}
+
+/***** Wrapper *****/
+.wrapper {
+	width: 100%;
+	padding: 0 0  1% 0;
+}
+
+.row {
+	max-width: 100%;
+  	margin: 0;
+}
+
+#content {
+	overflow: hidden;
+}
+
+/***** Header *****/
+.break-block {
+	width: 100%;
+	height: 30px;
+	background-color: #393939;
+}
+
+.span12 {
+	width: 100%;
+	margin: 0;
+}
+
+.logo {
+	max-width: 100%;
+	height: 41px;
+	margin: 15px auto 15px;
+	padding: 0;
+  	background: url('abbot-and-main-logo2.png') no-repeat top;
+  	background-size: contain;
+  	text-indent: -9999px;
+}
+
+.logo h1 {
+	height: 41px;
+}
+
+.logo h1 a {
+  	height: 41px;
+}
+
+nav {
+	border: 0 none;
+  	margin: 0 0 10px 0;
+}
+
+#nav.row.p30 {
+	background-color: #393939;
+}
+
+#nav div nav nav ul li a {
+	color: #fff;
+}
+
+nav > ul > li > a {
+  	color: #fff;
+  	text-transform: uppercase;
+	line-height: 35px;
+	height: 35px;
+}
+
+nav > ul > li > a.current {
+  	color: #fff;
+}
+
+nav ul li ul {
+	position: absolute;
+	text-align: left;
+	list-style: none;
+	z-index: 9999;
+  	background: -webkit-linear-gradient(#4c4c4c, #6c6c6c);
+	background: -o-linear-gradient(#4c4c4c, #6c6c6c);
+	background: -moz-linear-gradient(#4c4c4c, #6c6c6c);
+	background: linear-gradient(#4c4c4c, #6c6c6c);
+	padding: 10px 20px;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+  	display: block;
+}
+
+.break-block2 {
+	width: 100%;
+	height: 30px;
+	background-color: #393939;
+}
+
+.p30 {
+	margin: 0 !important;
+}
+
+.p25 {
+	display: none;
+}
+
+.intro h2 {
+  	display: none;
+}
+
+/***** Slider *****/
+.flexslider .slides img {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+}
+
+/***** Home Page Bottom Content *****/
+#bottom-content-wrapper {
+  	max-width: 100%;
+	width: 1280px;
+  	margin: 0 auto;
+    line-height: 0;
+}
+
+/***** Left Column *****/
+#left-column {
+	float: left;
+  	width: 32.33333%;
+}
+
+.block1 {
+  	width: 100%;
+	height: auto;
+	float: left;
+  	margin-bottom: 4%;
+  	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/mens_norm.jpg?4681') no-repeat;
+  	background-size: cover;
+}
+
+.block1 a {
+  	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.block1:hover {
+	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/mens_hover.jpg?4681') no-repeat;
+  	background-size: cover;
+   -webkit-transition: background 500ms ease-out 0.1s;
+	 -moz-transition: background 500ms ease-out 0.1s;
+	 -o-transition: background 500ms ease-out 0.1s;
+	 transition: background 500ms ease-out 0.1s;
+	}
+
+.block1_twitter {
+  	width: 100%;
+	height: auto;
+	float: left;
+  	margin-bottom: 0%;
+  	background: none;
+  	background-size: cover;
+}
+
+.block1_twitter a {
+  	
+	height: auto;
+	float: left;
+}
+
+.block1_twitter:hover {
+	background: none;
+  	background-size: cover;
+   -webkit-transition: background 500ms ease-out 0.1s;
+	 -moz-transition: background 500ms ease-out 0.1s;
+	 -o-transition: background 500ms ease-out 0.1s;
+	 transition: background 500ms ease-out 0.1s;
+	}
+.twitter-pic img{
+  width:113px;
+}
+
+.block2 {
+  	width: 100%;
+	height: auto;
+	float: left;
+  	clear: both;
+  	margin-bottom: 3%;
+    background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/womens_norm.jpg?4681') no-repeat;
+  	background-size: cover;
+}
+
+.block2 a {
+  	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.block2:hover {
+	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/womens_hover.jpg?4681') no-repeat;
+  	background-size: cover;
+  	-webkit-transition: background 500ms ease-out 0.1s;
+	-moz-transition: background 500ms ease-out 0.1s;
+	-o-transition: background 500ms ease-out 0.1s;
+	transition: background 500ms ease-out 0.1s;
+}
+
+
+/***** Middle Column *****/
+#middle-column {
+	float: left;
+  	width: 32.33333%;
+  	margin: 0 1.5%;
+}
+
+.block3 {
+  	width: 100%;
+	height: auto;
+	float: left;
+  	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/campaigns_norm.jpg?4681') no-repeat;
+  	background-size: cover;
+}
+
+.block3 a{
+  	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.block3:hover {
+	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/campaigns_hover.jpg?4681') no-repeat;
+  	background-size: cover;
+  	-webkit-transition: background 500ms ease-out 0.1s;
+	-moz-transition: background 500ms ease-out 0.1s;
+	-o-transition: background 500ms ease-out 0.1s;
+	transition: background 500ms ease-out 0.1s;
+}
+
+.block4 {
+  	width: 100%;
+	height: auto;
+	float: left;
+  	clear: both;
+  	
+  	
+}
+
+/***** Right Column *****/
+#right-column {
+	float: right;
+  	width: 32.33333%;
+}
+
+#right-column .block1 {
+	background: none;
+}
+
+#right-column .block1 a {
+	width: auto;
+}
+
+#right-column .block2 {
+  	width: 131.5%;
+}
+
+/***** Bottom Row *****/
+#bottom-row {
+  	float: left;
+  	width: 100%;
+}
+
+.row1 {
+	float: left;
+	width: 100%;
+	height: auto;
+	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/brandstory_norm.jpg?4681') no-repeat;
+	background-size: cover;
+}
+
+.row1 a {
+  	float: left;
+  	width: 100%;
+  	height: auto;
+}
+
+.row1:hover {
+	background: url('https://cdn.shopify.com/s/files/1/0365/6957/files/brandstory_hover.jpg?4681') no-repeat;
+  background-size: cover;
+  -webkit-transition: background 500ms ease-out 0.1s;
+	-moz-transition: background 500ms ease-out 0.1s;
+	-o-transition: background 500ms ease-out 0.1s;
+	transition: background 500ms ease-out 0.1s;
+}
+
+/***** Footer *****/
+.footer-wrapper {
+	display: none;
+}
+
+#footer {
+  	width: 100%;
+  	height: 40px;
+  	padding-bottom: 15px;
+}
+
+.footer-wrap {
+  	padding: 20px 20px 35px;
+  	background-color: #4a4a4a;
+}
+
+.blvd_logo {
+  width:13.53%;
+  text-align:center;  
+  margin:0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .blvd_logo {
+  	width:50%;
+  }
+}
+
+#footer-nav {
+  	float: left;
+}
+
+#footer-nav a {
+	color: #fff;
+}
+
+#social-wrap {
+  	float: right;
+  	margin: 0 50px 0 0;
+}
+
+#social-wrap a {
+	color: #000;
+}
+
+.fb {
+	float: left;
+  	margin: 0 10px 0 0;
+  	background: url("fb2.png") no-repeat;
+	text-indent: -9999px;
+	width: 24px;
+	height: 24px;
+}
+
+.fb a {
+  	float: left;
+  	width: 24px;
+    height: 24px;
+}
+
+.fb:hover {
+  	background-position: 0 -24px;
+}
+
+.twitter {
+	float: left;
+  margin: 0 10px 0 0;
+  background: url("twitter2.png") no-repeat;
+	text-indent: -9999px;
+	width: 24px;
+	height: 24px;
+}
+
+.twitter a {
+  	float: left;
+  	width: 24px;
+    height: 24px;
+}
+
+.twitter:hover {
+  	background-position: 0 -24px;
+}
+
+.tumblr {
+	float: left;
+  	margin: 0 10px 0 0;
+  	background: url("tumblr2.png") no-repeat;
+	text-indent: -9999px;
+	width: 24px;
+	height: 24px;
+}
+
+.tumblr a {
+  	float: left;
+  	width: 24px;
+    height: 24px;
+}
+
+.tumblr:hover {
+  	background-position: 0 -24px;
+}
+
+.insta {
+	float: left;
+  	background: url("instagram2.png") no-repeat;
+	text-indent: -9999px;
+	width: 24px;
+	height: 24px;
+}
+
+.insta a {
+  	float: left;
+  	width: 24px;
+    height: 24px;
+}
+
+.insta:hover {
+  	background-position: 0 -24px;
+}
+
+#subscribe {
+  	float: right;
+}
+
+#subscribe a {
+	color: #fff;
+}
+
+/***** Contact Page *****/
+#contactFormWrapper {
+	color: #000;
+}
+
+#contact-wrapper {
+  	float: left;
+  	width: 30%;
+  	padding: 13% 1% 13% 25%;
+}
+
+#contact-wrapper h1 b{
+  font-size:32.5px;
+}
+
+.page-with-contact-form {
+	margin-top: 3%;
+}
+
+#contactFormName {
+	width: 75%;
+  	margin-bottom: 3%;
+}
+
+#contactFormEmail {
+	width: 75%;
+  	margin-bottom: 3%;
+}
+
+#contactFormTelephone {
+	width: 75%;
+  	margin-bottom: 3%;
+}
+
+#contactFormMessage {
+	width: 75%;
+  	margin-bottom: 3%;
+}
+
+#contact-info-wrapper {
+	float: left;
+	width: 23%;
+	margin: 16% 0 0 0;
+}
+
+#sales {
+	margin-bottom: 5%;
+}
+
+#sales h2 {
+  	text-transform: uppercase;
+}
+
+#pr {
+	margin-bottom: 5%;
+}
+
+#pr h2 {
+  	text-transform: uppercase;
+}
+
+/***** Press Page *****/
+
+#press-container {
+    max-width: 100%;
+}
+
+.press-header {
+  width: 8%;
+  margin: 2% 46% 0;
+}
+
+#row_container{
+  width:100%;
+}
+
+div.press-story{
+  width: 18%;
+  float: left;
+  margin: 1.0%;
+}
+
+@media only screen and (max-width: 509px;) {
+  div.press-story{
+    width: 25%;
+    float: left;
+    margin: 0%;
+  }
+}
+
+
+/***** Campaign Page *****/
+#campaign-wrapper {
+  	max-width: 100%;
+}
+
+#campaign-wrapper #row1 {
+  	padding: 1.5% 3% 1%;
+}
+
+#campaign-wrapper #row2 {
+  	padding: 0 3% 1.5%;
+}
+
+.campaign1 {
+  	float: left;
+	  width: 32.33333%;
+  	background: url('http://cdn.shopify.com/s/files/1/0365/6957/files/2011.png?3801') no-repeat;
+  	background-size: cover;
+}
+
+.campaign1:hover {
+	background: url('http://cdn.shopify.com/s/files/1/0365/6957/files/2011Rollover.png?3801') no-repeat;
+  	background-size: cover;
+  	-webkit-transition: background 500ms ease-out 0.1s;
+	-moz-transition: background 500ms ease-out 0.1s;
+	-o-transition: background 500ms ease-out 0.1s;
+	transition: background 500ms ease-out 0.1s;
+}
+
+.campaign2 {
+  	float: left;
+	  width: 32.33333%;
+  	margin: 0 1.5%;
+  	background: url('http://cdn.shopify.com/s/files/1/0365/6957/files/Image_1.jpg?2794') no-repeat;
+  	background-size: cover;
+}
+
+.campaign2:hover {
+	background: url('http://cdn.shopify.com/s/files/1/0365/6957/files/Rollover_1.jpg?2794') no-repeat;
+  background-size: cover;
+  	-webkit-transition: background 500ms ease-out 0.1s;
+	-moz-transition: background 500ms ease-out 0.1s;
+	-o-transition: background 500ms ease-out 0.1s;
+	transition: background 500ms ease-out 0.1s;
+}
+
+.campaign3 {
+  	float: left;
+    width: 32.33333%;
+  	background: url('http://cdn.shopify.com/s/files/1/0365/6957/files/Image_2.jpg?2794') no-repeat;
+  	background-size: cover;
+}
+
+.campaign3:hover {
+	background: url('http://cdn.shopify.com/s/files/1/0365/6957/files/Rolloever.jpg?2794') no-repeat;
+  	background-size: cover;
+  	-webkit-transition: background 500ms ease-out 0.1s;
+	-moz-transition: background 500ms ease-out 0.1s;
+	-o-transition: background 500ms ease-out 0.1s;
+	transition: background 500ms ease-out 0.1s;
+}
+
+#\32 011-wrapper {
+  	max-width: 100%;
+	padding: .9% 0;
+}
+
+.campaign-row {
+	float: left;
+  	width: 100%;
+  	padding: .65% 1.5% 0;
+}
+
+.campaign-block1 {
+	float: left;
+  	width: 31.5%;
+}
+
+.campaign-block2 {
+	float: left;
+  	width: 31.5%;
+  	padding: 0 1%;
+}
+
+.campaign-block3 {
+	float: left;
+  	width: 31.5%;
+}
+
+/***** Story Page *****/
+#story-wrapper {
+  	max-width: 100%;
+  	padding: 10% 0;
+  	font-size: 1.2em;
+	line-height: 200%;
+}
+
+#story-wrapper > img.story-header {
+	width: 20%;
+	margin: 0 39%;
+}
+
+.story-logo {
+	width: 2%;
+}
+
+#story-wrapper img {
+	margin: 0 48%;
+  	padding-bottom: 1%;
+}
+
+.story-header {
+  	width: 180px;
+	margin: 0 auto;
+  	padding: 0 0 2% 0;
+	font-size: 1.6em;
+	font-family: 'resamitzregular' sans-serif;
+  	color: #959595;
+}
+
+.story-body {
+  	width: 890px;
+	margin: 0 auto;
+  	text-align: center;
+  	color: #959595;
+}
+
+#story-wrapper {
+	width: 100%;
+}
+
+#story-images-wrapper {
+  	float: left;
+	width: 100%;
+	padding-left: 3%;
+}
+
+#story-left-column {
+	float: left;
+  	width: 37%;
+  	padding: 1% 0 1% 1%;
+}
+
+#story1 {
+  	float: left;
+}
+
+#story2 {
+  	float: left;
+  	padding-top: 1%;
+}
+
+#story-right-column {
+	float: left;
+  	width: 60%;
+  	padding: 1%;
+}
+
+#story3 {
+  	float: left;
+  	width: 45%;
+  	padding-right: 1.2%;
+}
+
+#story4 {
+  	float: left;
+  	width: 47.1%;
+}
+
+#story5 {
+  	float: left;
+  	padding-top: 1%;
+  	width: 93.5%;
+}
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+/*
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+*/
+
+/***** Product Page *****/
+#description-wrapper {
+	float: left;
+	width: 50%;
+}
+
+.breadcrumb {
+  	display: none;
+}
+
+.span4 {
+	width: 160px;
+  	margin: 0 2.5%;
+}
+
+.span6 {
+	width: 35%;
+}
+
+.mobile-span6 {
+  	display: none;
+}
+
+#collection h1 {
+	display: none;
+}
+
+.row.products {
+	width: 100%;
+  	padding: 2.5% 0 0 0;
+}
+
+.row.clearfix {
+  	width: 80%;
+	padding: 5% 10% 0;
+}
+
+.product.span4 {
+  	width: 13%;
+	margin: 0 3.3%;
+}
+
+.product .image {
+  	margin: 0;
+}
+
+.product .details a {
+	padding: 0 0 10%;
+}
+
+.title {
+  	font-size: 2em;
+}
+
+#product .description {
+  	margin-bottom: 0;
+  	font-size: 1em;
+}
+
+.description {
+  	margin: 3% 0;
+  	font-size: 1.3em;
+  	color: #000;
+}
+
+.purchase h2.price {
+  	font-family: 'resamitzbold' sans-serif;
+	margin: 0 0 10px;
+	display: block;
+	font-size: 2em !important;
+	color: #000;
+	opacity: 0.7;
+}
+
+.product-options {
+  	float: left;
+  	width: 100%;
+  	padding: 3% 0 ;
+}
+
+
+.selector-wrapper {
+	margin: 0 0 5%;
+}
+
+.product-options label {
+  	float: left;
+  	width: 5%;
+  	padding: 0 30% 0 0;
+  	color: #000;
+}
+
+label.q {
+	padding-right: 2%;
+	margin: 2.5% 0;
+}
+
+#quantity {
+  	float: left;
+  	width: 7% !important;
+  	margin: 0.7% 0 0;
+}
+
+.product-options select {
+	margin-bottom: 0;
+}
+
+#add-item-form > div > div.select.clearfix {
+  	width: 25%;
+	float: left;
+	padding: 2% 7% 0 0;
+}
+
+#add-item-form > div > div.purchase-section.multiple {
+  	width: 50%;
+	float: left;
+  	padding-left: 1%;
+}
+
+#add-item-form > div > div.purchase-section.multiple {
+  	width: 45% !important;
+  	margin: .7% 0 0 0;
+}
+
+#add-item-form > div > div.purchase-section.multiple > div > input {
+  	width: 100%;
+  	height: 35px;
+  	text-transform: uppercase;
+	font-weight: bold;
+  	background-color: #000;
+	color: #fff;
+}
+
+#thumbs-wrapper {
+  	float: left;
+}
+
+#product h3.collection-title {
+  	padding-bottom: .5%;
+  	text-indent: 11.2%;
+}
+
+#row-products-wrapper .row.products {
+	padding: 2.5% 0 0 11%;
+}
+
+#row-products-wrapper .product.span4 {
+	margin: 0 2.5% 0 0;
+	width: 9%;
+}
+
+/***** Cart Page *****/
+table tr td {
+  	border: 0 none;
+}
+
+#cart {
+  	width: 70%;
+	margin: 0 15%;
+  	text-transform: uppercase;
+  	color: #000;
+}
+
+#cart > div > div > h1 {
+	text-transform: uppercase;
+  	font-size: 2.5em;
+	margin-top: 1%;
+  	color: #CCC;
+}
+
+#cartform > table > tbody > tr > td.item > a > strong {
+	color: #b41f25;
+}
+
+#cart .image {
+	text-align: left;
+  	text-indent: .5%;
+}
+
+#cart .price, #cart .remove {
+	text-align: center;
+}
+
+#cartform > table > thead > tr {
+	background: #000;
+	color: #707070;
+}
+
+#cartform > table > tbody > tr > td.qty {
+	width: 11%;
+}
+
+table tr td:last-child, table tr th:last-child {
+	padding-right: 10px;
+}
+
+#cartform > table > tbody > tr:nth-child(1) {
+	color: #000;
+}
+
+#cartform > table > tfoot > tr > td:nth-child(2) {
+	text-align: center;
+}
+
+#updates_617290861 {
+	float: left;
+}
+
+#update-cart {
+  	width: 35%;
+  	height: 24px;
+  	padding: 0;
+  	background: url('refresh.png') no-repeat;
+	color: transparent;
+}
+
+#update-cart:hover {
+  	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#cartform > div:nth-child(2) {
+	width: 100%;
+  	margin: 0 0 1% 0;
+  	padding: 0.3% 0;
+  	background: #000;
+	color: #fff;
+}
+
+#note {
+	width: 99.8%;
+  	text-indent: .5%;
+}
+
+#cartform > div.row {
+	height: 65px;
+}
+
+#cart .buttons {
+  	margin-top: 5%;
+}
+
+#cartform > div.span6.cart-buttons.inner-right.inner-left > div > div > a {
+	float: left;
+}
+
+.cart-buttons {
+	float: left !important;
+  	width: 40%;
+}
+
+.cont-shopping {
+  	float: left;
+  	height: 31px;
+	margin: 0 2% 0 0;
+  	padding: 0 2%;
+  	line-height: 32px;
+	background: #000;
+  	color: #fff;
+}
+
+#checkout {
+	float: left;
+  	height: 31px;
+	margin-left: 0;
+  	padding: 0 2%;
+  	text-transform: uppercase;
+  	line-height: 32px;
+}
+
+.checkout-label label {
+	margin-left: .5%;
+}
+
+/***** Bloomingdale's Event Gallery Page *****/
+.gallery {
+float: left;
+margin: 0 10.2%;
+}
+
+/***** Coming Soon *****/
+.coming-soon {
+  	width: 100%;
+  height:auto;
+/* 	padding: 15% 34%; */
+}
+
+/***** Share This *****/
+#social .share-this {
+  display: none;
+}
+
+#social #twitter-widget-0 {
+	margin: 0;
+}
+
+#social .pinterest {
+	width: 39px;
+}
+
+/***** Media Query *****/
+/***** iPhone5 Media Query *****/
+@media only screen and (max-width: 509px) {
+  	#mobile {
+		background: -webkit-linear-gradient(#6c6c6c, #4c4c4c);
+		background: -o-linear-gradient(#6c6c6c, #4c4c4c);
+		background: -moz-linear-gradient(#6c6c6c, #4c4c4c);
+		background: linear-gradient(#6c6c6c, #4c4c4c);
+    	padding: 15px;
+	}
+  
+  	.logo {
+    	margin: 0;
+  	}
+  
+	nav.mobile {
+  		width: 100%;
+    	margin: 15px 0;
+	}
+  
+  	#bottom-content-wrapper {
+    	padding: 0;
+  	}
+  
+  	#middle-column {
+    	margin: 0 1.8% 0.6%;
+  	}
+  
+  	#right-column .block1 a {
+    	font-size: .5em;
+  	}
+  
+  	#right-column .block2 {
+    	width: 100%;
+  	}
+  	#right-column .block4 {
+    	width: 100%;
+      	display:block;
+  	}
+  #right-column{
+    width:100%;
+  }
+  
+  	#footer-nav {
+  		float: none;
+    	width: 250px;
+      	margin: 0 auto 5%;
+	}
+  
+  	#subscribe {
+  		float: none;
+    	width: 63px;
+    	margin: 0 auto 5%;
+	}
+  
+  	#social-wrap {
+    	float: none;
+    	width: 126px;
+    	margin: 0 auto;
+    	padding-bottom: 5%;
+      	clear: both;
+	}
+  
+  	#product > div.row.clearfix > div.span6 > div {
+		display: none;
+	}
+    	
+  	.mobile-span6 {
+    	display: block;
+  	}
+  
+  	.product.span4 {
+  		width: 100%;
+		margin: 0;
+	}
+  
+  	#social .google-plus, 
+  	#product .tweet-btn, 
+  	#product .pinterest, 
+  	#product .facebook-like {
+		margin-right: 6.5%;
+	}
+  
+  	#twitter-widget-0 {
+		display: none !important;
+	}
+  
+  	#social.clearfix .tweet-btn #twitter-widget-0 {
+		display: block !important;
+	}
+  
+  	#social > div.facebook-like {
+		width: 25%;
+	}
+  	
+  	#add-item-form > div > div.select.clearfix {
+		width: 50%;
+		padding: 2% 0 0 0;
+	}
+  
+  	.product-options label {
+    	padding: 0 10% 0 0;
+  	}
+  
+  	#quantity {
+    	padding: 0.6%;
+    	width: 9% !important;
+  	}
+  
+  	#add-item-form > div > label {
+		padding: 0 2% 0 0;
+	}
+  
+  	#add-item-form > div > div.purchase-section.multiple {
+    	width: 100% !important;
+    	padding:  2% 0;
+    	clear: both;
+  	}
+  
+  	details {
+		margin: 2% 25%;
+	}
+  
+  	.cont-shopping {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+  
+  	.cont-shopping a {
+		margin: 0 0 0 20%;
+	}
+  
+  	#checkout {
+    	clear: both;
+		width: 100%;
+    	margin: 2% 0 0 0;
+  	}
+  
+  	#cartform > div.row > div {
+		float: left;
+		margin: 0 20%;
+	}
+}
+
+/***** Mobile Media Query *****/
+@media only screen 
+and (max-width: 603px) {
+  	.logo {
+    	margin: 15px 0 15px;
+  	}
+  
+  	.row.products {
+    	padding: 2.5% 0 0 0;
+  	}
+  
+  	.details {
+		width: auto;
+		margin: 2% 25%;
+	}
+  
+  	#description-wrapper {
+		width: 100%;
+	}
+  
+  	.cart-buttons {
+    	width: 100%;
+  	}
+}
+
+/***** Small Laptop Media Query *****/
+@media only screen 
+and (min-width : 604px)
+and (max-width : 767px)  {
+  	.logo {
+    	margin: 15px 0 15px;
+  	}
+  
+  	.cart-buttons {
+    	width: 56%;
+  	}
+  
+  	.facebook-like {
+		width: 27%;
+	}
+  
+  	#add-item-form > div > div.select.clearfix {
+		width: 35%;
+		padding: 2% 0 0;
+	}
+  
+  	.product-options label {
+		padding: 0 10% 0 0;
+	}
+  
+  	#add-item-form > div > label {
+		padding: 0 2% 0 0;
+	}
+  
+  	#add-item-form > div > div.purchase-section.multiple {
+		width: 43% !important;
+	}
+  
+  	#thumbs-wrapper {
+    	float: right;
+  	}
+}
+
+/***** iPad Portrait Media Query *****/
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px)  {
+  	.logo {
+    	margin: 15px 0 15px;
+  	}
+  	
+  	.cart-buttons {
+		width: 59%;
+	}
+  
+  	#description-wrapper {
+		float: left;
+		width: 59%;
+	}
+  
+  	.product-options label {
+		padding: 0 7% 0 0;
+	}
+}
+
+@media only screen and (max-width: 1060px) {
+	#add-item-form div div div label {
+		width: 100%;
+	}
+}
+
+/***** Laptop Media Query *****/
+@media only screen
+and (min-width: 1000px)
+and (max-width: 1250px) {
+  	#tweets {
+    	font-size: .7em;
+  	}
+  
+  	.title {
+    	font-size: 2em;
+  	}
+}
+
+/***** Macbook Pro Media Query *****/
+@media only screen 
+and (min-width: 1250px)
+and (max-width: 1409px) {
+    #tweets {
+    	font-size: .7em;
+  	}
+  
+  	#tweets li {
+    	padding: 0;
+    }
+  
+}
+
+/***** iMac Media Query *****/
+@media only screen 
+and (min-width: 1920px)
+and (max-width: 2560px) {
+  	.row.products {
+    	padding: 2.5% 10% 0;
+  	}
+  
+	.product.span4 {
+		width: 8.45%;
+	}
+}
+	
+        
+        
+.tweet_link {
+	display: none;
+}

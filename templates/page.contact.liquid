@@ -1,0 +1,76 @@
+<div id="page" class="row">
+  <div id="contact-wrapper">
+  <div class="span12">
+    <h1><b>{{ page.title }}</b></h1>
+    <h5>Should you have any questions, please feel free to contact us.</h5>
+    <div class="page-with-contact-form">
+      {{ page.content }}
+            
+        {% form 'contact' %}
+        {% if form.posted_successfully? %}
+        <div class="successForm feedback">
+          <p>Thanks for contacting us! We'll get back to you as soon as possible.</p>
+        </div>
+        {% endif %}
+
+        {% if form.errors %}
+        <div class="errorForm feedback">
+          <p>Oops, sorry. We were unable to submit your inquiry because it contained {{ form.errors | size | pluralize: 'an error', 'a few errors' }}. Please correct the following and submit again:</p>
+          {% for field in form.errors %}
+            <p>The {{ field | capitalize | replace: 'Body', 'Message' }} field {{ form.errors.messages[field] }}.</p>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        <div id="contactFormWrapper">
+          <p>
+            <label><b>Your Name</b></label><br/>
+            <input type="text" id="contactFormName" name="contact[name]" placeholder="Enter name" />
+          </p>
+          <p>
+            <label><b>Your Email</b></label><br/>
+            <input type="email" id="contactFormEmail" name="contact[email]" placeholder="Enter email name" />
+          </p>
+          <p>
+            <label><b>Your Phone</b></label><br/>
+            <input type="telephone" id="contactFormTelephone" name="contact[phone]" placeholder="555-555-1234" />
+          </p> 
+          <p>
+            <label><b>Message</b></label><br/>
+            <textarea rows="15" cols="75" id="contactFormMessage" name="contact[body]" placeholder="Your Message"></textarea>
+          </p>
+          <p>
+            <input type="submit" id="contactFormSubmit" value="Send" class="btn" />
+          </p>
+        </div>
+        {% endform %}
+      
+    </div>
+  </div>
+  </div>
+  
+  <div id ="contact-info-wrapper">
+    <div id="sales">
+      <h2><b>Sales</b></h2>
+    	<h3>Lisa DiGuilo</h3>
+      	<h3>lisa@beachhousellc.com</h3>
+    </div>
+    <div id="pr">
+      <h2><b>PR</b></h2>
+      	<h3>Fingerprint Communications</h3>
+      	<h3>Alex Sclavos</h3>
+      	<h3>alex@fingerprintcom.net</h3>
+    </div>
+    <div id="headquarters">
+      <h2><b>Headquarters</b></h2>
+    	<h3>7819 Beverly Blvd</h3>
+      	<h3>Los Angeles CA 90036</h3>
+      	<h3>info@ph1llc.com</h3>
+      	<h3>310-277-4160</h3>
+    </div>
+  </div>
+  
+  
+</div>
+
+

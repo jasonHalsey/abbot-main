@@ -1,0 +1,104 @@
+<div id="cart">
+  
+  <!-- Begin empty cart -->
+  {% if cart.item_count == 0 %}
+  <div class="row">
+    <div class="span12 expanded-message">
+      <br>
+      <br>
+      <h2 class="tc">Your cart is empty!</h2>
+    </div>
+  </div>
+  <!-- End empty cart -->
+  
+  <!-- Begin cart -->
+  {% else %}
+  <div class="row">
+    <div class="span12">
+      <h1>Shopping Cart</h1>
+      <form action="/cart" method="post" id="cartform">
+        <table>
+          <thead>
+          <tr>
+              <th class="image">Product</th>
+              <th class="item">Name</th>
+              <th class="price">Price</th>
+              <th class="remove">Remove</th>
+              <th class="qty">Quantity</th>
+              <th class="price">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            {% for item in cart.items %}
+            <tr>
+              <td class="image">
+                <div class="product_image">
+                  <a href="{{ item.product.url }}">
+                    <img src="{{ item.product.featured_image | product_img_url: 'small' }}"  alt="{{ item.product.title }}" />
+                  </a>
+                </div>
+              </td>
+              <td class="item">
+                <a href="{{item.product.url }}">
+                  <strong>{{ item.product.title }}</strong>
+                  {% if item.product.variants.size > 1 %}
+                  <span class="variant_title">{{ item.variant.title }}</span>
+                  {% endif %}
+                </a>
+              </td>
+              <td class="price">{{ item.price | money }}</td>
+              <td class="remove"><a href="/cart/change?line={{ forloop.index }}&quantity=0" class="cart">Remove</a></td>
+              <td class="qty">
+                <input type="text" size="4" name="updates[]" id="updates_{{ item.id }}" value="{{ item.quantity }}" onfocus="this.select();" class="tc item-quantity" />
+                <input type="submit" id="update-cart" class="btn" name="update" src="transparent24x24.png" />
+                
+              </td>
+              <td class="price"><span class="total"><strong>{{ item.line_price | money }}</strong></span></td>
+            </tr>
+           {% endfor %}
+          
+          </tbody>
+          <tfoot>
+          	<tr class="summary">
+              <td colspan="4"></td>
+              <td>Subtotal:</td>
+              <td class="price"><span class="total"><strong>{{ cart.total_price | money }}</strong></span></td>
+            </tr>
+          </tfoot>
+          
+        </table>
+
+        <div class="checkout-label">
+            <label for="note">Notes and Special Requests</label>
+        </div>
+        <div class="checkout-comments">
+            <textarea id="note" name="note" rows="10" cols="50">{{ cart.note }}</textarea>
+        </div>
+          
+
+        <div class="span6 cart-buttons inner-right inner-left">
+          <div class="buttons clearfix">
+            <div class="cont-shopping"><a href="http://abbotmain.com" title="Continue Shopping">Continue Shopping</a></div>
+            <input type="submit" id="checkout" class="btn" name="checkout" value="Check out" />
+          </div>
+        </div>
+        
+        {% if additional_checkout_buttons %}        
+        <div class="row">
+          <div class="extra-checkout-buttons span6">
+          {{ content_for_additional_checkout_buttons }}
+          </div>
+        </div>
+        {% endif %}
+
+      </form>
+    </div>
+  </div>
+  {% endif %}
+  
+  
+  <!-- End cart -->
+  
+</div> 
+

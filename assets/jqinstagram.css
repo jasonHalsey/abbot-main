@@ -1,0 +1,29 @@
+#instagram {
+  	max-width: 100%;
+  	height: auto;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+  	background: #FFF;
+}
+
+#instagram li {
+  	width: 33.3%;
+	list-style:none;
+	float:left;
+}
+
+#instagram li a img {
+/* 	width: 130px; */
+	width:100%;
+    height:auto;
+}
+
+/***** Media Query *****/
+@media only screen and (max-width: 509px) {
+  	#instagram li {
+    	float: right;
+    	width: 33%;
+    	margin-left: 0;
+  	}
+}
